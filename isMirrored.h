@@ -1,0 +1,1 @@
+int isMirrored(int x);

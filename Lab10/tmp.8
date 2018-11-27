@@ -1,0 +1,18 @@
+.TH tmp 8
+.SH tmp
+ tmp\- an application that monitor temperature and ajusts wiring pins based on difference over time
+.SH SYNOPSIS
+.B ./tmp
+[\fB\-v\fR]
+[\fB\-d\fR \fIDevice ID\fR]
+.SH ADDITIONAL
+.B tmp
+must intialize pins 0 - 2 inclusive
+.SH OPTIONS
+.TP
+.BR \-v  
+ -v: verbose copies 1wslave into stdout.txt
+.TP 
+.BR " \-d\ \fIDevice ID\fR 
+-d [Device ID]: changes device to provded device id 
+
